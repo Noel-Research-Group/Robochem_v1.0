@@ -1,0 +1,1 @@
+from Spinsolve_NMR.Spinsolve_NMR import *

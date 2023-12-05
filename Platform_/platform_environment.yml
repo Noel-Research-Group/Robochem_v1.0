@@ -1,0 +1,29 @@
+name: robochem_platform_32bit
+# to update the environment with this file run in command prompt (or conda shell)
+#SET CONDA_FORCE_32BIT=1
+#conda activate robochem_platform_32bit
+#cd Platform_
+#conda env update -f platform_environment.yml
+#close the prompt to return to 64bit mode
+# note packages like visa and numpy installed automatically as dependencies
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  #- pandas
+  #- scipy
+  - pyfirmata==1.1.0
+  - python-dotenv==1.0.0
+  - pymysql==1.0.2
+  - matplotlib==3.5.1
+  - openpyxl=3
+#  - pyautogui
+  - pip
+  - pip:
+      - bronkhorst-propar==0.5.5
+      # some packages currently need to be installed from pip due to an issue with 32-bit numpy conda & windows
+      - numpy
+      - pandas
+      - scipy
+

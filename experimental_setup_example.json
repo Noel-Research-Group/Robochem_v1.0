@@ -1,0 +1,65 @@
+{
+    "variables": [
+        {
+            "name": "A",
+            "type": "float",
+            "min": 0.05,
+            "max": 0.15
+        },
+        {
+            "name": "B",
+            "type": "discrete",
+            "items": [
+                "B1",
+                "B2"
+            ]
+        },
+        {
+            "name": "B_equiv",
+            "type": "float",
+            "min": 1,
+            "max": 5
+        },
+        {
+            "name": "C_equiv",
+            "type": "float",
+            "min": 0.001,
+            "max": 0.1
+        },
+        {
+            "name": "residence_time",
+            "type": "float",
+            "min": 120,
+            "max": 900
+        },
+        {
+            "name": "eagle_percentage",
+            "type": "float",
+            "min": 0.0,
+            "max": 100
+        }
+    ],
+    "num_init": 5,
+    "num_total": 20,
+    "objectives": [
+        "yield",
+        "throughput"
+    ],
+    "previous_runs": "No",
+    "dict_filename": "path_to_results.json",
+    "reactor_volume": 5.0,
+    "sample_information_filename": "path_to_sample_info.xlsx",
+    "exp_name": "example",
+    "processing_filename": "path_to_spinsolve_processing_file.qs",
+    "sample_push_volume": 5000,
+    "nmr_nucleus": "1D FLUORINE HDEC",
+    "nmr_settings": {
+        "PulseAngle": "90",
+        "Number": "16",
+        "RepetitionTime": "10",
+        "AcquisitionTime": "1.64",
+        "centreFrequency": "-80",
+        "decouplePower": "0"
+    },
+    "integration_calibration": 0.001
+}

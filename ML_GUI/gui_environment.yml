@@ -1,0 +1,20 @@
+name: robochem_gui_old
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy==1.22.4
+  - pandas=1.4
+  # altair can be unpinned when we upgrade streamlit to a newer version
+  - altair=4.2
+  - streamlit=1.10
+  - seaborn=0.12
+  - openpyxl=3.1
+  - pillow=10.0
+  - pymoo==0.6.0.1
+  - xlsxwriter=3.1
+  - pip
+  - pip:
+      - dragonfly-opt==0.1.7
+
