@@ -4,9 +4,9 @@ RoboChem, a self-optimizing robotic platform dedicated to chemistry
 optimization. 
 
 For the paper associated with the code please see here: 
-https://chemrxiv.org/engage/chemrxiv/article-details/64809b97e64f843f41767eac
+https://www.science.org/doi/10.1126/science.adj1817
 
-DOI: 10.26434/chemrxiv-2023-r0drq
+DOI: 10.1126/science.adj1817
 
 Robochem is split over a 64-bit (GUI and BO) and 32-bit (Hardware/Platform). 
 
